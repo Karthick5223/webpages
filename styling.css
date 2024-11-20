@@ -1,0 +1,60 @@
+
+.navbar ul {
+    justify-content: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: black;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+form {
+  width: 80%;
+  max-width: 350px;
+  padding: 20px;
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  font-size: 14px;
+}
